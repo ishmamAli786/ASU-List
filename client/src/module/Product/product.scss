@@ -1,0 +1,23 @@
+@import "./../../scss/variable.scss";
+
+.product_desc_div{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    color: $color-black;
+}
+.product_desc_date{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: bold;
+    color:$color-light
+}
+.product_desc_price{
+    font-weight: 600;
+    font-size: 26px;
+    color: $color-black;
+    margin-top: -25px;
+    padding-bottom:15px;
+    padding-top:5px
+}

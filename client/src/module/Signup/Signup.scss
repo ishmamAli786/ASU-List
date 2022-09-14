@@ -1,0 +1,81 @@
+@import "./../../scss/variable.scss";
+.parent_div{
+    width:90vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child_div{
+    width:30vw;
+    height:auto;
+    border:1px solid $color-light;
+    border-radius: 12px;
+}
+.sub_child_div{
+    padding:0px 25px;
+}
+.child_div_signup{
+    text-align:center;
+    color:#222222;
+    font-weight: 500;
+    font-size: 24px;
+}
+.sub_child_asuList{
+    margin-top:20px;
+    color:#222222;
+    font-weight: 500px;
+    font-size: 24px;
+}
+.sub_child_input{
+    border-top: 1px solid $color-light;
+    border-right: 1px solid $color-light;
+    border-left: 1px solid $color-light;
+    /* border: 1px solid $color-light; */
+    border-radius: 8px;
+}
+.sub_child_textField{
+    width:100% !important;
+    color:$color-dark
+}
+.sub_child_span1{
+    color:$color-dark;
+    font-weight: 400;
+    font-size: 15px;
+}
+.sub_child_span2{
+    color:$color-blue !important;
+    font-weight: 400;
+    font-size: 15px;
+}
+.sub_child_input1{
+    width:100% !important;
+    border: 1px solid $color-light;
+    border-radius: 9px;
+    margin-top: 25px;
+    margin-top:18px !important;
+    margin-bottom:8px !important
+}
+.sub_child_input1:hover{
+    border: 1px solid $color-light;
+}
+.sub_child_div_btn{
+    width:'100%'
+}
+
+.brthd:focus{
+    border: 1px solid $color-light !important;
+    outline:none
+}
+
+
+
+
+
+
+/* media query */
+@media screen and (max-width: 900px) {
+    .child_div{
+      width:70vw
+    }
+  }

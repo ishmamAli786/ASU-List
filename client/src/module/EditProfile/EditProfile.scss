@@ -1,0 +1,61 @@
+@import "../../scss/variable.scss";
+
+.parent_div{
+    width:90vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child_div{
+    width:30vw;
+    height:auto;
+    border:1px solid $color-light;
+    border-radius: 12px;
+}
+.sub_child_div{
+    padding:0px 25px;
+}
+.child_div_signup{
+    text-align:center;
+    color:$color-black;
+    font-weight: 700;
+    font-size: 16px;
+    padding:20px 0px;
+}
+.child_div_signupPrag{
+    text-align:center;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(47, 47, 47, 0.5);
+    padding:5px 0px;
+
+}
+.sub_child_asuList{
+    margin-top:20px;
+    color:$color-black;
+    font-weight: 500px;
+    font-size: 24px;
+}
+.editing_listing_div{
+    position:relative;
+    border:1px solid #606060;
+    border-radius: 11px;
+    padding:10px
+}
+.editing_lisitng_input{
+    font-weight:500;
+    font-size:16px;
+    color: $color-black;
+    float: right;
+    width:50%;
+    outline:none;
+    border:none
+}
+
+/* media query */
+@media screen and (max-width: 900px) {
+    .child_div{
+      width:70vw
+    }
+  }
